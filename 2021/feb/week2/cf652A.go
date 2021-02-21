@@ -25,8 +25,8 @@ func fastGetInt(b []byte) int {
 }
 
 //========== Implement Algorithm =======================
-func solution() string {
-	return ""
+func solution(sides int) bool {
+	return sides % 4 == 0
 }
 
 func main() {
@@ -34,7 +34,8 @@ func main() {
 	scanner := bufio.NewScanner(os.Stdin)
 
 	//================== Variables used ====================
-
+	var n int
+	var ret bool
 	//======================================================
 
 	//============== Get return value from File ============
@@ -50,9 +51,24 @@ func main() {
 	}
 	scanner.Split(bufio.ScanWords)
 	//======================= I/O ==========================
-
+	scanner.Scan()
+	n = fastGetInt(scanner.Bytes())
+	for i := 0; i < n; i++ {
+		scanner.Scan()
+		val := fastGetInt(scanner.Bytes())
+		ret = solution(val)
+		if ret{
+			fmt.Print("YES")
+		}else{
+			fmt.Print("NO")
+		}
+		if i < n-1{
+			fmt.Println("")
+		}
+	}
+	
 	//======================================================
 
 	//==================== OUTPUT ==========================
-
+	
 }
