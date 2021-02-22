@@ -1,0 +1,13 @@
+math
+
+brute force
+
+data structures
+
+graphs
+
+sortings
+
+implementation
+
+constructive algo
