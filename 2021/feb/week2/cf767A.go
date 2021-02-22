@@ -15,6 +15,11 @@ func (s *Stack) IsEmpty() bool {
 	return len(*s) == 0
 }
 
+func (s *Stack) sortStack(){
+	sort.Slice(*s, func(p, q int) bool {  
+     return Author[p].a_name < Author[q].a_name })
+}
+
 func (s *Stack) Push(str int) {
 	
 	if len(*s) == 0  {
