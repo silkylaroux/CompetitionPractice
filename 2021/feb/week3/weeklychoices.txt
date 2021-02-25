@@ -2,7 +2,7 @@ math:!
 645A	Park Lighting	800
 brute force: !
 578A	Hotelier	800
-data structures:
+data structures: !
 1450A	Avoid Trygub	800
 graphs:
 1055A	Metro	900
