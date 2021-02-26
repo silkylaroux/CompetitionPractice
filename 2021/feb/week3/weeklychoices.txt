@@ -4,9 +4,9 @@ brute force: !
 578A	Hotelier	800
 data structures: !
 1450A	Avoid Trygub	800
-graphs:
+graphs: !
 1055A	Metro	900
-sortings:
+sortings: !
 661A	Remove Smallest	800
 implementation:
 368A	Brain's Photos 800
