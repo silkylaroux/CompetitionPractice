@@ -9,6 +9,6 @@ graphs: !
 sortings: !
 661A	Remove Smallest	800
 implementation:
-368A	Brain's Photos 800
+707A	Brain's Photos 800
 constructive algo:
 GlobalR12A		800
