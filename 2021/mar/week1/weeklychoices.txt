@@ -1,0 +1,14 @@
+math:
+1492A	Three swimmers
+brute force:
+1491A	K-th Largest Value
+data structures:
+1438B	Valerii Against Everyone
+graphs:
+948A	Protect Sheep
+sortings:
+1487A	Arena
+implementation:
+1480B	The Great Hero
+constructive algo:
+1467A	Wizard of Orz
