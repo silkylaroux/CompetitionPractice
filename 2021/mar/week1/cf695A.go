@@ -5,7 +5,6 @@ import (
 	"log"
 	"os"
 	"fmt"
-	"math"
 )
 
 func fastGetInt(b []byte) int {
@@ -26,9 +25,34 @@ func fastGetInt(b []byte) int {
 }
 
 //========== Implement Algorithm =======================
-func solution(val int) int {
-
-	return int(math.Pow(float64(10),float64(val)))-val
+func solution(val int) string {
+	retVal := "9"
+	strVal := "0123456789"
+	if val == 1 {
+		return retVal
+	}
+	if val == 2 {
+		retVal +="8"
+		return retVal
+	}
+	if val == 3 {
+		retVal +="89"
+		return retVal
+	}
+	retVal +="89"
+	val-=3
+	for val >=10 {
+		retVal+=strVal
+		val -=10
+	}
+	temp := (val)
+	if temp < 0 {
+		temp = 0 
+	}
+	// fmt.Println("here",strVal[:temp])
+	retVal+=strVal[:temp]
+	
+	return retVal
 }
 
 func main() {
