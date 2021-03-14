@@ -7,7 +7,7 @@ data structures:
 graphs:
 
 sortings:
-
+41A		Translation
 implementation:
 1365A	Matrix Game
 constructive algo:
