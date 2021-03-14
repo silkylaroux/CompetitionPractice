@@ -1,13 +1,14 @@
 math:
-
+1367B	Even Array
 brute force:
-
+59A		Word
 data structures:
-
+1480B	The Great Hero
 graphs:
-
+1367A	Short Substrings
 sortings:
 41A		Translation
 implementation:
 1365A	Matrix Game
 constructive algo:
+110A	Nearly Lucky Number
