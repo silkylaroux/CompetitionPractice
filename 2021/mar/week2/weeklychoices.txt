@@ -1,14 +1,13 @@
-math:!
-1369A	FashionabLee
-brute force:!
-886A	ACM ICPC
-data structures:!
-767A	Snacktower
+math:
+
+brute force:
+
+data structures:
+
 graphs:
-115A	Party
-sortings:!
-1420A	Cubes Sorting
+
+sortings:
+
 implementation:
-567A	Lineland Mail
+1365A	Matrix Game
 constructive algo:
-1335B	Construct the String
