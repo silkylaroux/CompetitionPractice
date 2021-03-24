@@ -1,14 +1,14 @@
-math:!
-1369A	FashionabLee
-brute force:!
-886A	ACM ICPC
-data structures:!
-767A	Snacktower
+math:
+1367B	Even Array
+brute force:
+59A		Word
+data structures:
+1480B	The Great Hero
 graphs:
-115A	Party
-sortings:!
-1420A	Cubes Sorting
+1367A	Short Substrings
+sortings:
+41A		Translation
 implementation:
-567A	Lineland Mail
+1365A	Matrix Game
 constructive algo:
-1335B	Construct the String
+110A	Nearly Lucky Number
