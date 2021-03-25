@@ -1,14 +1,14 @@
-math:!
-1369A	FashionabLee
-brute force:!
-886A	ACM ICPC
-data structures:!
-767A	Snacktower
+math:
+1354A   Alarm Clock
+brute force:
+1494A   ABC String
+data structures:
+1438B   Valerii Against Everyone
 graphs:
-115A	Party
-sortings:!
-1420A	Cubes Sorting
+939A    Love Triangle
+sortings:
+1487A   Arena
 implementation:
-567A	Lineland Mail
+276A    Lunch Rush
 constructive algo:
-1335B	Construct the String
+1493A   Anti-knapsack
